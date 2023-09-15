@@ -5,7 +5,7 @@ As a DevOps engineer at a software company, you are responsible for deploying a 
 
 ### Requirements
 1. Kubernetes Cluster: Set up a Kubernetes cluster using any preferred Kubernetes distribution (e.g., Minikube, Docker Desktop, GKE, EKS, AKS, etc.). Ensure that you have access to the cluster and can interact with it using kubectl.
-2. Dockerize the Web Application: Containerize your web application using Docker. You will need to write a Dockerfile and any other necessary configurations to create the Docker image for the web application.
+2. Dockerize the Web Application: Containerize the web application using Docker. You will need to write a Dockerfile and any other necessary configurations to create the Docker image for the web application.
 3. Kubernetes Deployment: Write a Kubernetes manifest (YAML) for deploying the Dockerized web application to the Kubernetes cluster. The manifest should include a Deployment resource that defines the desired state of the application, specifying the container image, replicas, environment variables, and any other necessary configurations.
 4. Autoscaling: Implement a way to automatically scale between 2 to 5 replicas the web application based on CPU utilization.
 5. Ingress Controller: Set up an Ingress resource to expose the web application to external traffic. 
@@ -18,7 +18,7 @@ As a DevOps engineer at a software company, you are responsible for deploying a 
 
 ## Submission
 The candidate should submit the following:
-1. Link to the Git repository containing the application code, IaC scripts and documentation.
+1. Link to your Git repository containing the application code, IaC scripts and documentation.
 2. Any additional notes or explanations to clarify design decisions may be included in the repository.
 
 ## Evaluation Criteria
